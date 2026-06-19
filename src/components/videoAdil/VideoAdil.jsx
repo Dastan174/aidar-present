@@ -19,7 +19,7 @@ const VideoShamil = ({ link }) => {
 
   return (
     <div className="wrapper">
-      <h2>Наши воспоминания</h2>
+      <h2>Жылуу коз ирмемдер</h2>
       {windowWidth < 500 ? (
         <iframe
           src={link}
@@ -47,7 +47,7 @@ const VideoShamil = ({ link }) => {
           borderRadius: "4px",
         }}
       >
-        Примечание: Видео приватное.
+        Эскертүү: Видео приваттуу🔏
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Insta() {
         <img
           loading="lazy"
           className="avatar"
-          src="/images/avatar.JPG"
+          src="/images/avatar.webp"
           alt="avatar"
         />
         <span className="username">nuradinov555</span>
@@ -15,7 +15,7 @@ export default function Insta() {
       <img
         loading="lazy"
         className="post-image"
-        src="/images/insta.jpg"
+        src="/images/insta.webp"
         alt="post"
       />
 
@@ -29,7 +29,7 @@ export default function Insta() {
         <p className="likes">35k likes</p>
 
         <p className="description">
-          <strong>nuradinov555</strong> Коздорун керемет
+          <strong>nuradinov555</strong> Көздөрүн керемет
         </p>
       </div>
     </div>

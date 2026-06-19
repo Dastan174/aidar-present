@@ -83,7 +83,7 @@ const Page = () => {
         className={styles.img1}
         style={{ display: "flex", alignItems: "center" }}
       >
-        <Image priority src="/images/open.png" fill alt="open" />
+        <Image priority src="/images/open.webp" fill alt="open" />
       </div>
 
       {/* Остальные блоки */}
@@ -91,9 +91,9 @@ const Page = () => {
         <>
           <Typewritter />
           {/* <HoldHeart /> */}
-          <div className={styles.img3}>
+          <div className={styles.img2}>
             <Image
-              src="/images/memento.png"
+              src="/images/story4.webp"
               fill
               alt="open"
               loading="lazy"
@@ -102,20 +102,20 @@ const Page = () => {
           </div>
           <Story />
           <Insta />
+          <PhotoReveal />
           <div className={styles.img2}>
             <Image
-              src="/images/trip.png"
+              src="/images/trip.webp"
               fill
               alt="open"
               loading="lazy"
               priority={false}
             />
           </div>
-          <PhotoReveal />
           <OpenChat />
           <div className={styles.img1}>
             <Image
-              src="/images/search.png"
+              src="/images/search.webp"
               fill
               alt="open"
               loading="lazy"
@@ -125,22 +125,31 @@ const Page = () => {
           {showMemory && (
             <MemoryButton onClose={() => setShowMemory(false)} /> // ✅ передаем функцию
           )}
-          <Slider />
-          <VideoAdil link="https://www.youtube.com/embed/g-PAkvPhrLE?mute=1" />
-          <Balloons />
           <div className={styles.img3}>
             <Image
-              src="/images/four.webp"
+              src="/images/memento.webp"
               fill
               alt="open"
               loading="lazy"
               priority={false}
             />
           </div>
-          <LastChat />
+          <Slider />
           <div className={styles.img2}>
             <Image
-              src="/images/last.webp"
+              src="/images/last1.webp"
+              fill
+              alt="open"
+              loading="lazy"
+              priority={false}
+            />
+          </div>
+          <Balloons />
+          <VideoAdil link="https://www.youtube.com/embed/g-PAkvPhrLE?mute=1&controls=0&rel=0&loop=0" />
+          <LastChat />
+          <div className={styles.img1}>
+            <Image
+              src="/images/preprelast.webp"
               fill
               alt="open"
               loading="lazy"

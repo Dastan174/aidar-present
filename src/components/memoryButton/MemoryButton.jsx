@@ -20,7 +20,7 @@ export default function MemoryButton({ onClose }) {
         <ModalVideo
           visible={open}
           onClose={() => setOpen(false)}
-          src="https://www.youtube.com/embed/JHFHqlXHD3U?autoplay=0&mute=1&controls=1&rel=0"
+          src="https://www.youtube.com/embed/JHFHqlXHD3U?mute=1&controls=0&rel=0&loop=0"
         />
       )}
     </div>

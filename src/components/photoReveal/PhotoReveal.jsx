@@ -43,7 +43,7 @@ export default function PhotoReveal() {
         {/* Исходное размытое фото */}
         <Image
           alt="cho"
-          src="/images/reveal.jpg"
+          src="/images/reveal.webp"
           className="blurred-photo"
           width={393}
           height={200}
@@ -53,7 +53,7 @@ export default function PhotoReveal() {
         {/* Чистое фото, которое открывается */}
         <Image
           alt="cho"
-          src="/images/reveal.jpg"
+          src="/images/reveal.webp"
           className="clear-photo"
           width={393}
           height={250}
@@ -81,10 +81,7 @@ export default function PhotoReveal() {
         </div>
       </div>
 
-      <p className="hint">
-        Проведите пальцем по фото слева направо чтобы увидеть, что настоящая
-        красота не меняется со временем.
-      </p>
+      <p className="hint">Сүрөттү оңго сүрт😊</p>
     </div>
   );
 }
