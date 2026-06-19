@@ -80,7 +80,7 @@ const Page = () => {
       {/* Картинка для начала */}
       <div
         onClick={smoothScrollDown}
-        className={styles.img3}
+        className={styles.img1}
         style={{ display: "flex", alignItems: "center" }}
       >
         <Image priority src="/images/open.png" fill alt="open" />
@@ -90,7 +90,7 @@ const Page = () => {
       {showRest && (
         <>
           <Typewritter />
-          <HoldHeart />
+          {/* <HoldHeart /> */}
           <div className={styles.img3}>
             <Image
               src="/images/six.webp"

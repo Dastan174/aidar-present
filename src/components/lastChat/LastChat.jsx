@@ -9,7 +9,7 @@ export default function LastChat() {
     <div>
       <div className="mainbek">
         <button className="btn" onClick={() => setChatVisible(true)}>
-          Нажми, чтобы ответить 💌
+          Жооп берүү 💌
         </button>
       </div>
       <ChatAnswer visible={chatVisible} onClose={() => setChatVisible(false)} />

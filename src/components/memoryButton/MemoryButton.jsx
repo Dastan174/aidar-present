@@ -11,7 +11,7 @@ export default function MemoryButton({ onClose }) {
       {/* Кнопка */}
       {!open && (
         <div className="memory-trigger" onClick={() => setOpen(true)}>
-          Открыть Воспоминание✨
+          Элестерди эске салуу✨
         </div>
       )}
 

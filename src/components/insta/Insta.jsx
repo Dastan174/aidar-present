@@ -6,16 +6,16 @@ export default function Insta() {
         <img
           loading="lazy"
           className="avatar"
-          src="/images/ava.webp"
+          src="/images/avatar.JPG"
           alt="avatar"
         />
-        <span className="username">foreverlove</span>
+        <span className="username">nuradinov555</span>
       </div>
 
       <img
         loading="lazy"
         className="post-image"
-        src="/images/insta.webp"
+        src="/images/insta.jpg"
         alt="post"
       />
 
@@ -26,10 +26,10 @@ export default function Insta() {
           <span>📤</span>
         </div>
 
-        <p className="likes">2221 likes</p>
+        <p className="likes">35k likes</p>
 
         <p className="description">
-          <strong>foreverlove</strong> Вечная любовь
+          <strong>nuradinov555</strong> Коздорун керемет
         </p>
       </div>
     </div>
