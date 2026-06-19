@@ -93,7 +93,7 @@ const Page = () => {
           {/* <HoldHeart /> */}
           <div className={styles.img3}>
             <Image
-              src="/images/six.webp"
+              src="/images/memento.png"
               fill
               alt="open"
               loading="lazy"
@@ -102,11 +102,20 @@ const Page = () => {
           </div>
           <Story />
           <Insta />
+          <div className={styles.img2}>
+            <Image
+              src="/images/trip.png"
+              fill
+              alt="open"
+              loading="lazy"
+              priority={false}
+            />
+          </div>
           <PhotoReveal />
           <OpenChat />
           <div className={styles.img1}>
             <Image
-              src="/images/love.webp"
+              src="/images/search.png"
               fill
               alt="open"
               loading="lazy"
@@ -117,7 +126,7 @@ const Page = () => {
             <MemoryButton onClose={() => setShowMemory(false)} /> // ✅ передаем функцию
           )}
           <Slider />
-          <VideoAdil link="https://www.youtube.com/embed/Zjm4cycc2SY?autoplay=0&mute=1&controls=1&rel=0" />
+          <VideoAdil link="https://www.youtube.com/embed/g-PAkvPhrLE?mute=1" />
           <Balloons />
           <div className={styles.img3}>
             <Image
@@ -128,7 +137,6 @@ const Page = () => {
               priority={false}
             />
           </div>
-          <VideoAdil link="https://www.youtube.com/embed/vpuCVn0EQgU?autoplay=0&mute=1&controls=1&rel=0" />
           <LastChat />
           <div className={styles.img2}>
             <Image

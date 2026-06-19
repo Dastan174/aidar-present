@@ -2,7 +2,7 @@
 import "./videoAdil.css";
 import { useState, useEffect } from "react";
 
-const VideoShamil = ({link}) => {
+const VideoShamil = ({ link }) => {
   const [windowWidth, setWindowWidth] = useState(0);
   const [isClient, setIsClient] = useState(false);
 
