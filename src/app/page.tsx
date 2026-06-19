@@ -147,6 +147,15 @@ const Page = () => {
           <Balloons />
           <VideoAdil link="https://www.youtube.com/embed/g-PAkvPhrLE?mute=1&controls=0&rel=0&loop=0" />
           <LastChat />
+          <div className={styles.img2}>
+            <Image
+              src="/images/selfie.webp"
+              fill
+              alt="open"
+              loading="lazy"
+              priority={false}
+            />
+          </div>
           <div className={styles.img1}>
             <Image
               src="/images/preprelast.webp"
