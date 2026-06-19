@@ -100,9 +100,9 @@ const Page = () => {
               priority={false}
             />
           </div>
+          <PhotoReveal />
           <Story />
           <Insta />
-          <PhotoReveal />
           <div className={styles.img2}>
             <Image
               src="/images/trip.webp"
